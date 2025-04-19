@@ -1,0 +1,978 @@
+.header
+{
+    display:flex;
+    flex-wrap:wrap;
+}
+.navlogo
+{
+    width:60px;
+    height:60px;
+    padding-left: 10px;
+}
+.nav 
+{
+  background-color: lightgray;
+  
+}
+.navbar
+{
+  width:100%;
+  margin:auto;
+  background-color: lightgray;
+  position: relative;
+  z-index: 2;
+}
+.navbut
+{
+  width:30px;
+  height:30px;
+  padding-right: 10px;
+}
+.onefifth
+{
+  width:25%;  
+  padding-top: 10px;     
+}
+.threefifth
+{
+width:55%; 
+background-color: lightgrey;
+border-radius: 25px;
+padding-top: 10px;
+height:50px;
+
+}
+.otheronefifth
+{
+  width:20%;
+  text-align: end;
+}
+
+.nav-item
+{
+  padding-left: 10px;
+}
+.greencarou
+{
+  background-color: #369e45;
+  color:white;
+  align-items: center;
+}
+.greenkaru
+{
+  margin-top: 10px;
+  height:30px;
+}
+.navleft
+{
+  margin-left: 20px;
+ 
+  
+}
+.navright
+{
+  margin-right: 20px;
+  
+  
+}
+.carospy11
+{
+  background-image:url(vegacaroubanner1.webp);
+}
+.carospy11
+{
+  height:360px;
+  background-position:center ;
+  background-size: cover;
+  width:100%;
+}
+.carospy22
+{
+  background-image:url(vegacaroubanner2.webp);
+}
+.carospy22
+{
+  height:360px;
+  background-position:center ;
+  background-size: cover;
+  width:100%;
+}
+.carospy33
+{
+  background-image:url(vegacaroubanner3.webp);
+}
+.carospy33
+{
+  height:360px;
+  background-position:center ;
+  background-size: cover;
+  width:100%;
+}
+.slidebut
+{
+  transform: scaleX(-1); 
+}
+.onlyimg
+{
+  text-align: center;
+  padding-top: 50px;
+}
+.cheesybanner
+{
+  width:90%;
+  height:100px;
+}
+.onlyimg2
+{
+  width:90%;
+  margin:auto;
+  padding-top:50px;
+}
+.onlyimg2
+{
+  width:90%;
+  padding:auto;
+}
+.veganchocobanner
+{
+  background-size: cover;
+  width:100%;
+}
+.seafood
+{
+  background-size: cover;
+  width:100%;
+}
+.cheeseg
+{
+  background-size: cover;
+  width:100%;
+}
+.twoimage
+{
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+.mit
+{
+  width:45%;
+  margin-right: 20px;
+  margin-top: 50px;
+  background-image: url("cheeseeggsdiarybanner.webp");
+  background-position:center ;
+  background-size: cover;
+  height:200px;
+  border-radius: 20px;
+}
+.cheese
+{
+  width:45%;
+  margin-left: 20px;
+  margin-top: 50px;
+  background-image: url("seafoodbanner.webp");
+  background-position:center ;
+  background-size: cover;
+  height:200px;
+  border-radius: 20px;
+}
+.category
+{
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.prodhouse
+{
+  background-color: lightgrey;
+  height:100%;
+  border-radius:25px;
+}
+.descrhouse
+{
+  height:75px;
+}
+.browse
+{
+  border:none !important;
+}
+.browse:hover
+{
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+.tak
+{
+color: grey;
+}
+.tobran
+{
+  background-color: grey;
+  border-radius: 50%;
+  border: none;
+  height:200px;
+  width:200px;
+}
+.brands
+{
+  margin-top: 100px;
+  padding-bottom: 30px;
+}
+.onthegreen
+{
+  background-color: #369e45;
+  border-radius: 40px;
+  margin-top: 300px;
+}
+.whybut
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+.why
+{
+  width:70%;
+  color:white;
+}
+.orngbut
+{
+  width:30%;
+  text-align: end;
+}
+.learn
+{
+  color: white;
+  background-color: orange;
+  border:none;
+  width:130px;
+  height:40px;
+  border-radius: 50px;
+}
+.imghous
+{
+  margin:auto;
+}
+.govig
+{
+  height:300px;
+  width:100%;
+}
+.jung
+{
+   width:100%;
+   height:100%;
+  
+  
+}
+.headerr
+{
+  background-color: white;
+  color:black;
+  border-radius: 50px;
+}
+.jung2
+{
+ 
+  width:100%;
+  height:100%;
+  
+}
+
+.liliput
+{
+  border:none;
+  background-color: lightgrey;
+  color: black;
+  width:70%;
+}
+.magni
+{
+  padding-left: 20px;
+}
+.realstar
+{
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  padding-top: 100px;
+}
+.real 
+{
+width:50%;
+text-align: left;
+}
+.star
+{
+width:50%;
+text-align: right;
+}
+.starhr
+{
+  
+  color:  10px black;
+}
+.human
+{
+font-size: 30px;
+}
+.trolly
+{ 
+font-size: 30px; 
+padding-left: 15px;
+}
+.rare2
+{
+  width:80%;
+  height:80%;
+}
+.prodcaro
+{
+  width:80%;
+  margin:auto;
+}
+.gold
+{
+  color: gold;
+}
+.footer
+{
+  background-color: lightgrey;  
+}
+.biglogo
+{
+  width:100%;
+  height:150px;
+}
+.logohead
+{
+  background-color: lightgrey;
+  border:none;  
+}
+.logobody
+{
+  background-color: lightgrey;
+  border:none;
+}
+.zariya
+{
+  color:black;
+}
+.inpusultan
+{
+  margin-top:20px;
+  width:90%;
+  height:40px;
+  border-radius: 30px;
+  border:none;
+}
+.subscript
+{
+  margin-top:20px;
+  width:90%;
+  height:40px;
+  border-radius: 40px;
+  border:none;
+  color:white;
+  background-color: orange;
+}
+.twinsta
+{
+  margin-left: 10px;;
+}
+.belfooter
+{
+  background-color: lightgrey;
+  margin-top: 1px;
+  margin-bottom:0px;
+}
+.copycards
+{
+  width:90%;
+  margin:auto;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.copyright
+{
+width:50%;
+text-align: start;
+align-items: center;
+}
+.crds
+{
+  width:50%;
+  text-align: end;
+  align-items: center;
+}
+.croimg
+{
+  text-align:center;
+  width:100%;
+  height:300px;
+}
+.rare
+{
+  width:100%;
+  height:100%;
+  
+}
+.prodhouse2
+{
+  height:100%;
+  border-radius:25px;
+  background-color: #eaeef2;
+}
+.rare2
+{
+  width:80%;
+  height:80%;
+  margin:auto;
+}
+.orange
+{
+  background-color: orange;
+}
+.axe
+{
+  font-size: x-small;
+  color:white;
+  
+}
+.axe2
+{
+  font-size: x-small;
+  color:white;
+  text-decoration: none;
+  
+}
+.prodphot
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+.products
+{
+  color:white;
+  width:50%;
+}
+.axe3
+{
+  color: white;
+  text-decoration: none;
+}
+.photograph
+{
+width:50%;
+}
+.orangphoto
+{
+  width:80%;
+  margin:auto;
+}
+.orangephoto
+{
+  width:80%;
+  margin:auto;
+}
+.photograph2
+{
+  width:50%;  
+}
+.products2
+{
+  color:white;
+  width:50%;
+}
+
+.grin
+{
+  color:#6dcb55;
+  padding-top: 200px;
+}
+.bluck
+{
+  color:#39634b;
+  padding-top: 50px;
+}
+.bluck2
+{
+  padding-top: 50px; 
+}
+.likhavat
+{
+  font-size: large;
+}
+.brown
+{
+  background-color: #dcc87d;
+}
+.products22
+{
+  padding-top: 10px;
+}
+.axe11
+{
+color:black;
+text-decoration: none;
+}
+.axe22
+{
+color:white;
+text-decoration: none;
+}
+.products22 p
+{
+  font-size: large;
+}
+.chocos
+{
+  width:100%;
+  height:100%;
+}
+.abba
+{
+  width:100%;
+  height:100%; 
+}
+.imhouse
+{
+  width:100%;
+}
+.plushouse
+{
+  text-align: end;
+}
+.hara
+{
+  height:20px;
+  width:20px;
+}
+
+.pashtun
+{
+  text-align: center;
+}
+.hedur h1
+{
+  color: #369e45;
+}
+.form
+{
+  width:80%;
+  margin: auto;
+  
+}
+.pehlanam
+{
+ height:70px;
+ width:60%;
+ border-radius: 10px;
+ 
+}
+.Gmail
+{
+
+  height:70px;
+  width:45%;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.form2
+{
+  width:80%;
+  margin: auto;
+  
+}
+.grecod
+{
+  height:70px;
+  width:15%;
+  margin-top: 30px;
+  border:none;
+  color:white;
+  background-color: rgb(54, 158, 69);
+  border-radius: 10px;
+}
+.Offer
+{
+  padding-top: 50px;
+}
+.parcha
+{
+  width:100%;
+  height:1000px;
+  background-color: #F5F5F5;
+}
+.bharo
+{
+  margin:auto;
+  width:400px;
+  background-color: white;
+  border-radius: 20px;
+}
+.navlogo23
+{
+  width:100px;
+  height:100px;
+}
+.bharo11
+{
+  text-align: center;
+}
+.butuk
+{
+  width:90%;
+  margin:auto;
+}
+.bharo13
+{
+  text-align: center;
+}
+.mailua
+{
+  width:90%;
+  margin:auto;
+  border-color: #6dcb55;
+  border-radius: 5px;
+  margin-top:50px;
+  height:30px;
+}
+.baro14
+{
+  width:90%;
+  margin:auto;
+}
+.butuk2
+{
+  width:90%;
+  margin:auto; 
+  border:none;
+  background-color: #6dcb55;
+  border-radius: 5px;
+  margin-top:50px;
+  color: white;
+  margin-bottom:20px;
+  height:40px;
+}
+.shab
+{
+text-align:center;
+}
+.sam
+{
+  text-align:center;
+}
+.sher 
+{
+  border:none !important;
+}
+.subscriptdown
+{
+  margin-top:50px;
+  margin-bottom:100px;
+  width:200px;
+  height:40px;
+  border-radius: 40px;
+  border:none;
+  color:white;
+  background-color: orange;
+  padding-top: 10px;
+  
+}
+.utter
+{
+  text-align: center;
+ 
+}
+.delicious
+{
+height:300px;
+}
+.delison
+{
+width:80%;
+margin:auto;
+border : 1px solid black;
+border-radius: 10px;
+}
+.dezin1
+{
+text-decoration: none;
+}
+.dezin2
+{
+text-decoration: none;
+}
+.transformghar
+{
+  text-align: center;
+}
+.teranaam
+{
+width:400px;
+height:50px;
+margin-top: 20px;
+border-radius: 10px;
+}
+.jimail
+{
+width:400px;
+height:50px;
+margin-top: 20px;
+border-radius: 10px;
+}
+.Sandesh
+{
+width:400px;
+height:100px;
+margin-top: 20px;
+border-radius: 10px;
+}
+.jamakar
+{ 
+width:400px;
+height:50px;
+margin-top: 20px;
+border-radius: 10px;
+background-color: #6eca55;
+color:white;
+border:none;
+}
+.yantra
+{
+  width:345px;
+  height:50px;
+  margin-top: 20px;
+  border-radius: 10px; 
+}
+.country
+{
+  width:60px;
+  height:45px;
+  align-items: center;
+  text-align: center;
+  margin-top: 25px;
+  border-radius: 5px;
+  border:2px solid black;
+  background-color: white;
+  
+}
+.code
+{
+  width:325px;
+  height:60px;
+}
+.usa 
+{
+  width:25px;
+  height:25px;
+ }
+.inport3
+{
+  display:flex;
+  flex-wrap:wrap;
+  height:80px;
+  width:400px;
+  margin:auto;
+}
+.coding
+{
+  font-size: medium;
+}
+.scroll-box {
+  max-height: 600px;       /* Or any height you want */
+  overflow-y: auto;        /* Enables vertical scrollbar */
+  width:105px;
+}
+.scroll-box::-webkit-scrollbar
+{
+ background-color:#6c6;
+ width:5px;
+}
+.listdiplay
+{
+  width:300px;
+  height:700px;
+  position:absolute;
+  z-index: 1000;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+summary 
+{
+  list-style: none;
+}
+summary::-webkit-details-marker 
+{
+  display: none;
+}
+.price11
+{
+width:35px;
+}
+.price22
+{
+  width:35px; 
+}
+.recomind
+{
+  font-size: small;
+}
+.akhand:hover
+{
+ color:#369e45;
+}
+.rashid
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+.shopinbutn
+{
+  border:none;
+  background-color: #369e45;
+  color:white;
+  border-radius: 5px;
+  
+}
+.rashid11
+{
+ width:55%;
+}
+.rashid22
+{
+ width:40%;
+ text-align: right;
+}
+.cntshp
+{
+  font-size: smaller;
+  width:150px;
+  height:10px;
+}
+.shami
+{
+  text-align: center;
+}
+.cartstate
+{
+  padding-top: 20px;
+}
+.siraj
+{
+  display:flex;
+  flex-wrap:wrap;
+}
+.siraj11
+{
+  width:50%;
+  padding-top:500px;
+}
+.siraj22
+{
+  width:50%;
+  padding-top:500px;
+  text-align: right;
+}
+.umran
+{
+  display:flex;
+  flex-wrap:wrap;
+  padding-top: 50px;
+}
+.umran11
+{
+  width:50%;
+}
+.umran22
+{
+  width:50%;
+  text-align: right;
+}
+.umrbut1
+{
+border:none;
+color:white;
+background-color: black;
+align-items: center;
+width:140px;
+height:40px;
+border-radius: 1000px;
+
+}
+.umrbut2
+{
+  border:none;  
+  color:white;
+  background-color: black;
+  align-items: center;
+  width:140px;
+  height:40px;
+  border-radius: 1000px;
+}
+.nechevalacar
+{
+  height:600px;
+}
+.winner
+{
+  text-align: right;
+  position: fixed;     
+  z-index: 9999; 
+  top: 600px;         
+  right: 50px;      
+  width: 120px;  
+}
+.mynavbar
+{
+  background-color: #eaeef2;
+  height:60px;
+  
+}
+.sevenbut
+{
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.fivebut1
+{
+  padding-top: 10px;
+  border:none;
+  height:30px;
+  width:160px;
+  background-color: #eaeef2;
+}
+.fivebut2
+{
+  padding-top: 10px;
+  border:none;
+  height:30px;
+  width:120px;
+  margin-left: 15px;
+  background-color: #eaeef2;
+}
+.twobut1
+{
+  padding-top: 10px;
+  border:none;
+  height:30px;
+  width:100px;
+  margin-left: 550px;
+  background-color: #eaeef2;
+}
+.twobut2
+{
+  padding-top: 10px;
+  border:none;
+  height:30px;
+  width:100px;
+  background-color: #eaeef2;
+}
+.fazal
+{
+  color:black;
+}

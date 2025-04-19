@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arslan's Vegetable Shop</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header class = "container header p-2">
+        <div class ="onefifth justify-content-start">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="menu.png" class="navbut">
+             </button>
+             <a href="index.html"><img src="veganessentialslogo.avif" class="navlogo"></a>
+           <div class="collapse navbar-collapse listdiplay" id="navbarNav">
+            <ul class="navbar-nav ">
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Best Sellers</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Gift Ideas</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Holiday & Parties</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>New Products</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Rare Vegan Finds</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Sale & Closeout</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Shop by Dietary Needs</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>-----------------</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Cheese</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Chocolate, Candy & Sweets</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Egg Replacers</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Meat & Seafood</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Pantry Essentials</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Prepared Foods</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Snacks</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Companion Animal Products</strong></a></li>
+                <li class="nav-item akhand"><a class="nav-link" href="#"><strong>Vitamins & Supplements</strong></a></li>
+              </ul>
+          </div>
+        </div>
+ 
+        
+        <div class="threefifth">
+            <i class="bi bi-search magni"></i><input type="search" placeholder="Search for products,categoreis..." class="liliput">
+        </div>
+        <div class="otheronefifth">
+            <span><a href="signin.html "class="fazal"><i class="bi bi-person-circle human"></a></i><i class="bi bi-cart2 trolly" href="#offspin" data-bs-toggle="offcanvas" aria-expanded="false"></i></span>
+            
+         </div>
+    </header>
+    <div class="offcanvas offcanvas-end w-30 h-100" id="offspin">
+        <div class="offcanvas-body">
+            <div class="container-fluid p-1 rashid ">
+                 <div class="rashid11">
+                    <strong><h4>SHOPPING CART</h4></strong>
+                 </div>
+                 <div class="rashid22">
+                    <button class="shopinbutn">
+                        <p class="cntshp">x Continue Shopping</p>
+                    </button>
+                 </div>
+            </div>
+            <div class="container-fluid p-1 shami">
+                
+                 <p class="cartstate">Your Cart is currently empty.</p>
+                
+            </div>
+            <div class="container-fluid p-1 siraj">
+                <div class="siraj11">
+                    <h4>Product Total</h4>
+                </div>
+                <div class="siraj22">
+                    <h4>$0.00</h4>
+                </div>
+            </div>
+            <div class="container-fluid p-3 umran">
+                <div class="umran11">
+                    <button class="umrbut1">
+                        <h6>VIEW CART</h6>
+                    </button>
+
+                </div>
+                <div class="umran22">
+                    <button class="umrbut2">
+                        <h6>CHECKOUT</h6>
+                    </button>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <section class=" container-fluid mynavbar p-1">
+        <div class="d-flex flex-nowrap overflow-auto sevenbut">
+          <span><a class="nav-link" href="shopbycategory.html"><button class="fivebut1"><strong><p class="nabi">Shop By Category</p></strong></button></a></span>
+          <span><a class="nav-link" href="newrelease.html"><button class="fivebut2"><strong><p class="nabi">New Releases</p></strong></button></a></span>
+          <span><a class="nav-link" href="popular.html"><button class="fivebut2"><strong><p class="nabi">Popular</p></strong></button></a></span>
+          <span><a class="nav-link" href="rarefinds.html"><button class="fivebut2"><strong><p class="nabi">RareFinds</p></strong></button></a></span>
+          <span><a class="nav-link" href="newsletter.html"><button class="fivebut2"><strong><p class="nabi">Newsletter</p></strong></button></a></span>
+          <span><a class="nav-link" href="aboutus.html"><button class="twobut1"><strong><p class="nabi">About Us</p></strong></button></a></span>
+          <span><a class="nav-link" href="contactus.html"><button class="twobut2"><strong><p class="nabi">Contact Us</p></strong></button></a></span>
+        </div>
+    </section>
+    <section class=" carousel slide container-fluid p-0  text-center greencarou" id="arsl" data-bs-ride="carousel">
+        <div class="carousel-inner">
+        <p class="carousel-item active greenkaru"><strong>FREE ECCONOMY SHIPPING on order over $99*- Excludes Cold Items</strong></p>
+        <p class="carousel-item greenkaru"><strong>1000s of vegan Products You won't Find Anywhere Else</strong></p>
+        <p class="carousel-item greenkaru"><strong>Save 10% on Your First Order CLAIM NOW</strong></p>
+        </div>
+    </section>
+    <section class="container-fluid orange p-5">
+        <span>
+            <a href="index.html" class="axe">Home</a> 
+            <a href="newrelease.html" class="axe2">/ Rare Vegan Finds</a>
+        </span>
+        <div class="prodphot">
+            <div class="products2">
+              <h1>Best Sellers</h1>
+              <p>Celebrate a compassionate Easter with our selection of vegan<br>
+                Best Sellers at Vegan Essentials. Our Easter collection features a delightful range of plant-based treats that are<br>
+                perfect for sharing with family and friends.Read more</p>
+            </div>
+            <div class="photograph2">
+               <img src="orange2.webp" class="orangephoto">
+            </div>
+
+        </div>
+    </section>
+    <section class="container-fluid p-5">
+        <div class="row">
+            <div class="col-3 p-0">
+               
+                <div class="shadow p-3  bg-white rounded pathaan">
+                    <details>
+                        <summary><span><strong>Shop by Ingredients<i class="bi bi-caret-down-fill arrow"></i></strong></span></summary>
+                        <div class="mt-2 ms-3">
+                            <div><input type="checkbox" id="low-sodium"> <label for="low-sodium">Low Sodium</label></div>
+                            <div><input type="checkbox" id="high-protein"> <label for="high-protein">High Protein</label></div>
+                            <div><input type="checkbox" id="organic"> <label for="organic">Organic</label></div>
+                            <div><input type="checkbox" id="high-fiber"> <label for="high-fiber">High Fiber</label></div>
+                            <div><input type="checkbox" id="gluten-free"> <label for="gluten-free">Gluten Free</label></div>
+                          </div>
+                    </details>
+
+                    <hr>
+                    <details>
+                        <summary><span><strong>Categoreis<i class="bi bi-caret-down-fill arrow"></i></strong></span></summary>
+                        <div class="mt-2 ms-3">
+                            <div><input type="checkbox" id="artisan-cheese"> <label for="artisan-cheese">Artisan Cultured Cheeses</label></div>
+                            <div><input type="checkbox" id="bacon-bbq"> <label for="bacon-bbq">Bacon, BBQ & Hot Dogs</label></div>
+                            <div><input type="checkbox" id="blocks-wedges"> <label for="blocks-wedges">Blocks, Wedges & Wheels</label></div>
+                            <div><input type="checkbox" id="pork-lamb"> <label for="pork-lamb">Pork & Lamb</label></div>
+                            <div><input type="checkbox" id="slices-sausages"> <label for="slices-sausages">Slices & Sausages</label></div>
+                            <div><input type="checkbox" id="snacks-appetizers"> <label for="snacks-appetizers">Snacks & Appetizer</label></div>
+                            <div><input type="checkbox" id="tofu-seitan"> <label for="tofu-seitan">Tofu, Seitan & Jackfruit</label></div>
+                        </div>
+                    </details>
+
+                    <hr>
+                    <details>
+                        <summary><span><strong>Brand<i class="bi bi-caret-down-fill arrow"></i></strong></span></summary>
+                        <div class="mt-2 ms-3">
+                            <div class="mt-2 ms-3">
+                                <div><input type="checkbox" id="amys"> <label for="amys">Amy's</label></div>
+                                <div><input type="checkbox" id="armored-fresh"> <label for="armored-fresh">Armor Fresh</label></div>
+                                <div><input type="checkbox" id="casbah"> <label for="casbah">Casbah</label></div>
+                                <div><input type="checkbox" id="chunk"> <label for="chunk">Chunk</label></div>
+                                <div><input type="checkbox" id="credo"> <label for="credo">Credo</label></div>
+                                <div><input type="checkbox" id="daiya"> <label for="daiya">Daiya</label></div>
+                                <div><input type="checkbox" id="deva"> <label for="deva">Deva</label></div>
+                                <div><input type="checkbox" id="feed-your-head"> <label for="feed-your-head">Feed Your Head</label></div>
+                                <div><input type="checkbox" id="good-planet-foods"> <label for="good-planet-foods">Good Planet Foods</label></div>
+                                <div><input type="checkbox" id="lilys-vegan-pantry"> <label for="lilys-vegan-pantry">Lily's Vegan Pantry</label></div>
+                                <div><input type="checkbox" id="may-wah"> <label for="may-wah">May Wah</label></div>
+                                <div><input type="checkbox" id="mori-nu"> <label for="mori-nu">Mori-Nu</label></div>
+                                <div><input type="checkbox" id="nuts-for-cheese"> <label for="nuts-for-cheese">Nuts for Cheese</label></div>
+                                <div><input type="checkbox" id="shicken"> <label for="shicken">Shicken</label></div>
+                                <div><input type="checkbox" id="thrilling-foods"> <label for="thrilling-foods">Thrilling Foods</label></div>
+                                <div><input type="checkbox" id="tindle"> <label for="tindle">TiNDLE</label></div>
+                                <div><input type="checkbox" id="uptons-naturals"> <label for="uptons-naturals">Upton's Natural</label></div>
+                              </div>
+                              
+                        </div>
+                    </details>
+
+                    <hr>
+                    <details>
+                        <summary><span><strong>Cold Pack<i class="bi bi-caret-down-fill arrow"></i></strong></span></summary>
+                        <div class="mt-2 ms-3">
+                            <div><input type="checkbox" id="pork-lamb"> <label for="pork-lamb">Pork & Lamb</label></div>
+                          </div>
+                    </details>
+
+                    <hr>
+                    <details>
+                        <summary><span><strong>Price<i class="bi bi-caret-down-fill arrow"></i></strong></span></summary>
+                        <div class="mt-2 ms-3">
+                            <label for="price-from"><strong>From:</strong></label>
+                            <input type="number" class="price11" name="price-from" placeholder="$0.00"><br>
+                          
+                            <label for="price-to" class="ms-3"><strong>To:</strong></label>
+                            <input type="number" class="price22" name="price-to" placeholder="$29.99">
+                          </div>
+                    </details>
+
+                    <hr>
+                </div>
+            </div>
+            <div class="col-9">
+            
+                <div class="row p-5">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                       <div class="card shadow h-100 ">
+                        <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="rarevegan1.webp" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                               <img src="greeenplus2.png" class="hara">
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p>Go Max Go - Jokerz Candy Bar, 2.1oz</p>
+                            <strong><p>$3.19</p></strong>
+                            
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular1.webp" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+                         </div>
+                         <div class="card-body">
+                            <p>Go Max Go - Thumbs Up Bar, 1.3ozp>
+                            <strong><p>$3.19</p></strong> 
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular2.webp" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+                         </div>
+                         <div class="card-body">
+                            <p>Go Max Go - Twilight Candy Bar, 2.1oz</p>
+                            <strong><p>$3.19</p></strong> 
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular3.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Go Max Go - 2fer Candy Bar, 1.5oz</p>
+                            <strong><p>$3.19</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                       <div class="card shadow h-100 ">
+                        <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular4.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+
+                        </div>
+                        <div class="card-body">
+                            <p>Go Max Go - Major English Toffee Bar, 1.5oz
+                            </p>
+                            <strong><p>$3.19</p></strong>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular5.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Go Max Go - Buccaneer Candy Bar, 2oz</p>
+                            <strong><p>$3.19</p></strong> 
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular6.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Yves Veggie - Pepperoni Slices</p>
+                            <strong><p>$6.99</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular7.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Dandies - Marshmallow</p>
+                            <strong><p>$7.19</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                       <div class="card shadow h-100 ">
+                        <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular8.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+
+                        </div>
+                        <div class="card-body">
+                            <p>Lindt - Oatmilk Chocolate</p>
+                            <strong><p>$15.99</p></strong>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular9.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Hershey's - Plant-Based</p>
+                            
+                            <strong><p>$3.99</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular10.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Reese's - Plant-Based Peanut</p>
+                            <strong><p>$4.49</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular11.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Good Planet Foods - Plant-</p>
+                            <strong><p>$5.99</p></strong> 
+                         </div>
+                        </div>
+                     </div>
+                </div>
+                <div class="row p-5">
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                       <div class="card shadow h-100 ">
+                        <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular12.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+                           
+
+                        </div>
+                        <div class="card-body">
+                            <p>Katjes - Gummies, 4.9oz |</p>
+                            <strong><p>$5.39</p></strong>
+                        </div>
+                       </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular13.jpg" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Good2Go Veggie - Blaz'N Bacon,</p>
+                            <strong><p>$15.99</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white h">
+                            <div class="imhouse">
+                                <img src="popular14.webp" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Good2Go Veggie - Shock'N</p>
+                            <strong><p>$22.99</p></strong> 
+                         </div>
+                        </div>
+                     </div>
+                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3 suh">
+                        <div class="card shadow h-100 ">
+                         <div class="card-header bg-white">
+                            <div class="imhouse">
+                                <img src="popular15.webp" class="abba">
+
+                            </div>
+                            <div class="plushouse">
+                                <img src="greeenplus2.png" class="hara">
+                             </div>
+ 
+                         </div>
+                         <div class="card-body">
+                            <p>Miyoko's Creamery -</p>
+                            <strong><p>$9.99</p></strong>
+                         </div>
+                        </div>
+                     </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid p-5">
+        <div class="row">
+        <div class="col-3">
+
+        </div>
+        <div class="col-9">
+            <div class="deliciuos p-5">
+                <div class="delison p-2">
+                    <p>Whether you're looking for dairy-free chocolate, plant-based meats, egg replacers, vegan sauces, or other specialty vegan products, our Best Sellers offer something for everyone to enjoy.<br>
+
+                        These top selling vegan products are sure to please. Check out which top selling vegan products delight the masses.<br>
+                        
+                        At Vegan Essentials, we understand the importance of high-quality, cruelty-free products. These top vegan product are cruelty-free items everyone will love.<br>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="container-fluid winner">
+        <img src="Vegeiawards.webp" class="veggy">
+    </section>
+    <section class="container-fluid footer">
+        <div class="row  p-5">
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-start">
+                 <div class="card">
+                    <div class="card-header text-center logohead">
+                        <img src="veganessentialslogo.avif" class="biglogo">
+                    </div>
+                    <div class="card-body logobody">
+                        <strong>
+                            <p>VeganEssentials is a one-stop shopping destination for all vegan products. Shop now to get the highest quality animal-free & cruelty-free products.</p> 
+                        </strong>
+                        
+                            <p>Email:<a href="" class="zariya">info@veganessentials.com</a></p>
+                            <p>Phone:<a href="" class="zariya">(847) 986-8606</a></p>
+                            <span><img src="fb.png" ><img src="x.png" class="twinsta"><img src="instagram.webp" class="twinsta"></span>
+                        
+                    </div>
+                 </div>
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3  text-start">
+                <strong><h5>RESOURCES</h5></strong>
+                 
+                    <p>About Us</p>
+                    <p>Contact</p>
+                    <p>FAQ</p>
+                    <p>Shipping Policy</p>
+                    <p>Return Policy</p>
+                    <p>Privacy policy</p>
+                    <p>Blog</p>
+                    <p>Newsletter</p>
+                 
+                
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-start">
+                <strong><h5>MOST POPULAR</h5></strong>
+                
+                   <p>Companion Animal Products</p>
+                   <p>New Products</p>
+                   <p>SALE Products</p>
+                   <p>Cheese Alternatives</p>
+                   <p>Meat Alternatives</p>
+                   <p>Candy & Sweets</p>
+                   <p>Gift Certificates</p>
+                
+            </div>
+            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3 text-start">
+                <strong><h5>NEWSLETTER</h5></strong>
+                
+                   <p>Join our good news mailing list.</p>
+                   <input type="email" placeholder="Enter your email address" class="inpusultan">
+                   <button class="subscript"><strong>SUBSCRIBE</strong></button>
+                
+            </div>
+
+        </div>
+
+    </section>
+   
+    <section class="container-fluid belfooter">
+        <div class="copycards">
+          <div class="copyright">
+               <p>&copy; Designed and developed by Mohd.Arslan</p>
+          </div>
+          <div class="crds">
+            <img src="payment2.webp">
+          </div>
+        </div>
+    </section>
+
+</body>
+</html>
